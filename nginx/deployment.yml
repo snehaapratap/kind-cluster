@@ -2,7 +2,7 @@ kind: Deployment
 apiversion: apps/v1
 metadata:
  name :nginx-deployment
- namespace: nginx
+ namespace : nginx
 spec:
  replicas: 2
  selector:
