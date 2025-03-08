@@ -9,8 +9,8 @@ spec:
   matchLabels:
    app: nginx
  template:
-  name: nginx-dep-pod
   metadata:
+   name: nginx-dep-pod
    labels:
     app: nginx
   spec:
